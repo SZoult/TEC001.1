@@ -1,11 +1,16 @@
-def middle_char(s):
-    length = len(s)
-    mid = length // 2
-    s=int(input("Enter string: "))
-    if length % 2 == 0:
-        return s[mid - 1: mid + 1]
-    else:
-        return s[mid]
+words = phrase.split()
+result = ""
+for word in words:
+    result += word[0].upper()
+return result
+p=input("Enter the phrase: ")
+print((acronym(p)))
+
+
+
+
+
+
 
 
 

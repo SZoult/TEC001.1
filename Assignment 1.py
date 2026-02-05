@@ -1,18 +1,18 @@
-1#
+#Ex1
 Tien = input("Enter your name: ")
 print("Hello, " + Tien + " !")
 print("-----------------------------")
-2#
+#Ex2
 R=int(input("Enter radius of circle: "))
 print("Circumference of circle is: ", 2*3.14*R)
 print("-----------------------------")
-3#
+#Ex3
 Chieudai = float(input("Enter length of rectangle: "))
 Chieurong = float(input("Enter width of rectangle: "))
 print("Area of rectangle is: ", Chieudai * Chieurong)
 print("Perimeter of rectangle is: ", 2 * (Chieudai + Chieurong))
 print("-----------------------------")
-4#
+#Ex4
 a=int(input("Enter A: "))
 b=int(input("Enter B: "))
 c=int(input("Enter C: "))
@@ -20,7 +20,7 @@ print("Sum: ", a+b+c)
 print("Product: ", a*b*c)
 print("Average: ", (a+b+c)/3)
 print("-----------------------------")
-5#
+#Ex5
 Talent=float(input("Enter talents: "))
 Pound= float(input("Enter pounds: "))
 Lot=float(input("Enter lots: "))
@@ -30,7 +30,7 @@ kilograms = int(total_grams // 1000)
 grams = total_grams % 1000
 print("The weight in modern units: ", kilograms, " kilograms and ",round(grams,2), " grams.")
 print("-----------------------------")
-6#
+#Ex6
 import random
 code_3_digits = ""
 for _ in range(3):
